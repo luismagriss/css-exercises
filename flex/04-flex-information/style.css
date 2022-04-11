@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 img {
@@ -23,4 +26,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.bitems {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 0px 500px 0px 500px;
+}
+
+.i1, .i2, .i3, .i4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
